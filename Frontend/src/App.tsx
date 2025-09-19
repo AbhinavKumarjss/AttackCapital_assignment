@@ -11,7 +11,7 @@ export default function App() {
 
           <Route path="bots" element={<Botpage/>}></Route>
           <Route path="calls" element={<CallLogsPage/>}></Route>
-          <Route path="*" element={<Botpage/>}></Route>
+          <Route path="" element={<Botpage/>}></Route>
         </Route>
       </Routes>
     </Router>
