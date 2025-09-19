@@ -209,7 +209,7 @@ export default function Botpage(): ReactElement {
           </div>
 
           <div className="mt-4 text-xs text-gray-500">
-            Bots are stored locally. Replace with API calls.
+            Made by Abhinav
           </div>
         </div>
 
