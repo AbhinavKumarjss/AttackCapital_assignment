@@ -51,7 +51,7 @@ router.post('/postcall', async (req, res) => {
     const {type = 'end-of-call-report',sessionId,callType,direction,toPhoneNumber,fromPhoneNumber,createdAt,endedAt,disconnectionReason,isSuccessful = false,summary,transcript = [],dynamicVariables = {}} = req.body || {};
 
     // remove empty messages
-    cleanTranscript(transcript);
+    const cleanedTranscript = cleanTranscript(transcript);
 
     console.log('Received transcript:', JSON.stringify(transcript, null, 2));
 

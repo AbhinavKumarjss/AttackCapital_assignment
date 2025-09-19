@@ -320,7 +320,7 @@ export default function Botpage(): ReactElement {
                 </div>
                 <div>
                   <label className="block text-sm text-gray-400">
-                    Description
+                    Prompt
                   </label>
                   <textarea
                     value={newDescription}
